@@ -1,0 +1,113 @@
+{
+ "Week": "2026-11-08",
+ "LastWeek": "",
+ "X": 0.4875650893420731,
+ "Programs": [
+  {
+   "Program": "cmd/asm",
+   "Version": "go1.26.10",
+   "GoVersion": "go1.26.10",
+   "GOOS": "freebsd",
+   "GOARCH": "amd64",
+   "Counters": {
+    "asm/flag:D": 93,
+    "asm/flag:I": 93,
+    "asm/flag:gensymabis": 35,
+    "asm/flag:o": 93,
+    "asm/flag:p": 93,
+    "asm/flag:trimpath": 93,
+    "asm/invocations": 93
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/cgo",
+   "Version": "go1.26.10",
+   "GoVersion": "go1.26.10",
+   "GOOS": "freebsd",
+   "GOARCH": "amd64",
+   "Counters": {
+    "cgo/flag:dynimport": 3,
+    "cgo/flag:dynlinker": 1,
+    "cgo/flag:dynout": 3,
+    "cgo/flag:dynpackage": 3,
+    "cgo/flag:import_runtime_cgo": 1,
+    "cgo/flag:import_syscall": 1,
+    "cgo/flag:importpath": 3,
+    "cgo/flag:ldflags": 3,
+    "cgo/flag:objdir": 3,
+    "cgo/invocations": 6
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/compile",
+   "Version": "go1.26.10",
+   "GoVersion": "go1.26.10",
+   "GOOS": "freebsd",
+   "GOARCH": "amd64",
+   "Counters": {
+    "compile/flag:asmhdr": 35,
+    "compile/flag:buildid": 255,
+    "compile/flag:c": 255,
+    "compile/flag:complete": 213,
+    "compile/flag:embedcfg": 1,
+    "compile/flag:goversion": 255,
+    "compile/flag:importcfg": 255,
+    "compile/flag:lang": 255,
+    "compile/flag:nolocalimports": 255,
+    "compile/flag:o": 255,
+    "compile/flag:p": 255,
+    "compile/flag:pack": 255,
+    "compile/flag:std": 202,
+    "compile/flag:symabis": 35,
+    "compile/flag:trimpath": 255,
+    "compile/invocations": 257
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/go",
+   "Version": "go1.26.10",
+   "GoVersion": "go1.26.10",
+   "GOOS": "freebsd",
+   "GOARCH": "amd64",
+   "Counters": {
+    "go/buildcache/hit": 251,
+    "go/buildcache/miss": 256,
+    "go/buildcache/stdlib-recompiled": 1,
+    "go/cgo:enabled": 3,
+    "go/clean/flag:modcache": 1,
+    "go/goroot:other": 3,
+    "go/invocations": 3,
+    "go/mode:module": 3,
+    "go/platform/host/freebsd/major-version:15": 3,
+    "go/platform/host/freebsd/version:15-1": 3,
+    "go/platform/target/goamd64:v1": 3,
+    "go/platform/target/goarch:amd64": 3,
+    "go/platform/target/goos:freebsd": 3,
+    "go/subcommand:build": 2,
+    "go/subcommand:clean": 1
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/link",
+   "Version": "go1.26.10",
+   "GoVersion": "go1.26.10",
+   "GOOS": "freebsd",
+   "GOARCH": "amd64",
+   "Counters": {
+    "link/flag:X": 1,
+    "link/flag:buildid": 1,
+    "link/flag:buildmode": 1,
+    "link/flag:extld": 1,
+    "link/flag:importcfg": 1,
+    "link/flag:o": 1,
+    "link/invocations": 2
+   },
+   "Stacks": {}
+  }
+ ],
+ "Config": "v0.0.0-0"
+}

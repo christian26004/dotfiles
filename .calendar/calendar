@@ -1,0 +1,20 @@
+/*
+ * This file is generally used to display hoildays 
+ * and TODO dates that show up when I log into the
+ * system.
+ *
+ * Cite calendar(1) on the manual for more
+ * information about the calendar command.
+*/
+
+// TODO
+
+Nov 12	Set up dotfiles @ some point!
+
+// Holidays
+
+Oct 31	Halloween
+Nov Thu+4	Thanksgiving
+Dec 25	Christmas
+Dec 30	New Years Eve
+Jan 1	New Years Day
